@@ -6,9 +6,12 @@ public class FirstTest {
 		// TODO Auto-generated method stub
 Scanner stringScanner = new Scanner(System.in);
 
-String name = stringScanner.next();
+System.out.print("what is your name? ");
+
+String name = stringScanner.nextLine();
 
 System.out.println("hello world your name is : "+name);
+
 	}
 
 }
